@@ -1,0 +1,33 @@
+p000=+15003	//move_SpeedScale //original p000=+00003
+p001=+00010	//move_DisturbanceThreshold
+p002=+00003	//turn_SpeedScale/=10
+p003=+00010	//turn_DisturbanceThreshold
+
+p004=-11630	//startPosition_X  //p004=+75999
+p005=-00080	//startPosition_Y  //need=0
+p006=-01247	//startPosition_Z    p006=-01082
+p007=-00000	//startAngle_X  //if==0,then horizon  
+p008=-00900	//startAngle_Y  //original   p008=+02773
+p009=+00000	//startAngle_Z  //need=0 
+
+p010=(./maps/VR_CXT_W_new_1.3ds) //modelFileName
+
+p011=+30000	//resetPosition_X1
+p012=+00000	//resetPosition_Y1//need=0
+p013=-01224	//resetPosition_Z1
+p014=+00600	//resetDistance
+
+p015=+00003	//arrowMoveSpeed
+
+
+
+end
+
+//value:12345 means 1234.5
+
+p004=+75999	//startPosition_X
+p005=+00000	//startPosition_Y//need=0
+p006=-01082	//startPosition_Z
+p007=+00000	//startAngle_X//if==0,then horizon
+p008=+02773	//startAngle_Y
+p009=+00000	//startAngle_Z//need=0
