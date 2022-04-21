@@ -1,0 +1,57 @@
+p000=+00001	//move_SpeedScale //original p000=+00003
+p001=+00010	//move_DisturbanceThreshold
+p002=+00001	//turn_SpeedScale/=10
+p003=+00010	//turn_DisturbanceThreshold
+
+p004=-16687	//startPosition_X  //p004=+75999
+p005=-00090	//startPosition_Y  //need=0
+p006=-01247	//startPosition_Z    p006=-01082
+p007=-00000	//startAngle_X  //if==0,then horizon  
+p008=+00090	//startAngle_Y  //original   p008=+02773
+p009=+00000	//startAngle_Z  //need=0  
+
+p010=(./maps/demo.3ds) //modelFileName VR_4CXT5_1, VR_CXT_W_M_5.3ds
+p011=(COM3) //Params_comNum
+p022=(./) // folder to save the data files
+
+p012=-00060	//resetPosition_X1
+p013=+00000	//resetPosition_Y1//need=0
+p014=-01247	//resetPosition_Z1
+p015=+00600	//resetDistance
+
+p016=-07975	//Context 1 Position X1
+p017=-01630	//Context 1 Position X2
+p027=-00841	// Return position after Context 1
+p025=-15898	// Context 2 Position X1
+p026=-09553	// Context 2 Position X2
+p029=-08764	// Return position after Context 2
+p018=+00100	//Buffer Distance
+p033=-15898	//Switch Context Trial Position
+
+p024=+00030	// maximal trials in this session
+p030=()  // trial number in Context 1, three digits, separated by comma, no space in between e.g. (001,012,128)
+p031=(002,011,125)	// trial number in context 2, three digit, separated by comma, no space in between
+p032=()	// trial number in context 3
+
+p019=+00003	//arrowMoveSpeed
+p020=+00000	//Params_autoTurnFlag = 1,0
+p021=+00020	//Params_autoTurnNum
+p023=+00030	//Angle_Y
+
+p028=+00001	// debug mode
+p034=+00002	// sample interval to save VR data
+
+p035=+00030	// Context 3 Position X1
+p036=+00030	// Context 3 Position X2
+p037=+00030	// Return position after Context 3		
+
+	
+end
+
+p038=(D:\miniscope data 2\P20200509160924.txt)	 // Pfile for Replay
+p039=+00030
+p040=+00030	
+	
+
+
+
